@@ -1,0 +1,24 @@
+# TPMAQ1 — Preparación y Análisis Exploratorio de Datos
+
+Esta etapa del proyecto cubre la exploración, limpieza y preparación
+del dataset de Ecobici para el modelado de Machine Learning.
+
+## Repositorio
+
+El código de esta etapa está disponible en GitHub:  
+🔗 https://github.com/cimberlina/grupo7-eda-ecobici
+
+## Contenido del TPMAQ1
+
+- Carga y limpieza del dataset (~3.2M registros)
+- Análisis exploratorio de distribuciones y correlaciones
+- Feature engineering:
+  - Encoding cíclico de hora y mes (seno/coseno)
+  - Distancia Haversine entre estaciones
+  - Variables de día de semana y fin de semana
+- Split estratificado train/test (70/30)
+- Exportación de `X_train.csv`, `X_test.csv`, `y_train.csv`, `y_test.csv`
+
+## Outputs generados
+
+Los archivos CSV generados por TPMAQ1 son los inputs de TPMAQ2.
